@@ -1,0 +1,28 @@
+{
+  "name": "imp-demo",
+  "description": "",
+  "main": "index.js",
+  "authors": [ ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-socket-io": "^0.7.0",
+    "toastr": "^2.1.2",
+    "moment": "^2.12.0",
+    "font-awesome": "^4.5.0",
+    "angular-nvd3": "^1.0.5",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "lodash": "^4.6.1",
+    "jquery": "^2.2.1"
+  }
+}

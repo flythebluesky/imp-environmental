@@ -1,0 +1,16 @@
+<div class="col-md-12">
+    <h1>Environmentals Chart</h1>
+    <p>Last 24 hours</p>
+    <div class="col-md-10" style="min-height: 450px; background-color: white">
+        <nvd3 options="options" data="data"></nvd3>
+    </div>
+    <div class="col-md-2">
+        <p>This demo uses Nginx, MongoDB, Javascript, Node.js, Angular, Bootstrap, REST and the Squirrel programming language to read and store environmental data from an <a href="http://www.electricimp.com">Electric Imp</a> device.</p>
+        <p>The chart updates automatically every 5 minutes.</p>
+    </div>
+</div>
+<div class="col-md-12">
+    <h2>Raw Server Data</h2>
+    <p>Environmental data collected from an Electric Imp device, with local weather observations from Weather Underground.</p>
+    <pre>{{rawData}}</pre>
+</div>

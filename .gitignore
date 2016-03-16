@@ -1,0 +1,10 @@
+/node_modules/
+/.jshintrc
+/.tern-project
+/.sublime-project
+/.project
+/bower_components
+/.settings
+/logs
+/views/index-agency-theme.html
+/.idea
